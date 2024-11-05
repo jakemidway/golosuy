@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "RuthlessSketch";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: url("./font/ruthless_sketch/RuthlessSketch.ttf") format("truetype"),
+    }
+  
+  /* Теперь можно использовать шрифт */
+body {
+    font-family: "RuthlessSketch", "Arial", sans-serif;
+    font-size: 24px;
+}
+
+.narativ{
+    padding: 10px 42px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form form{
+    width: 300px;
+    display: flex;
+    flex-direction: column; 
+}
